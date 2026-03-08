@@ -51,7 +51,7 @@ Student-Performance-Analyzer/
 
 
 - `main.py` → Handles file uploads, sidebar configuration, and UI rendering
-- `requirements.txt` → Ensures consistent environment setup, including optional openpyxl for Excel files
+- `requirements.txt` → Ensures consistent environment setup
 
 ---
 

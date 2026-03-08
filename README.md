@@ -40,14 +40,18 @@ The Student Performance Analyzer automates the manual process of calculating gra
 ---
 
 ## Project Structure
+```
 Student-Performance-Analyzer/
 │
 ├── .streamlit/
-│ └── config.toml # Custom Black & White Theme settings
-├── main.py # Core application logic and UI
-├── requirements.txt # List of dependencies
+│   └── config.toml        # Custom Black & White Theme settings
+│
+├── main.py                # Core application logic and UI
+├── requirements.txt       # List of dependencies
+│
 └── data/
-└── student_sample.csv # Sample dataset for testing
+    └── student_sample.csv # Sample dataset for testing
+```
 
 
 - `main.py` → Handles file uploads, sidebar configuration, and UI rendering

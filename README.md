@@ -14,7 +14,7 @@ The Student Performance Analyzer automates the manual process of calculating gra
 - Interactive Dashboarding with **Streamlit**
 - Defensive Programming (input validation for numeric vs. text columns)
 - Data-Driven Logic (automated grading using Pandas binning)
-- Modern UI/UX Design with a high-contrast cinematic theme
+- Modern UI/UX Design 
 
 ---
 
@@ -27,7 +27,6 @@ The Student Performance Analyzer automates the manual process of calculating gra
   - **Top 10 Performers:** Real-time leaderboard using `.nlargest()`.
   - **Failing Students Detector:** Instantly flags students requiring academic attention.
 - **Class Metrics:** Summary cards for Total Students, Class Average, and Fail Count.
-- **Sleek UI:** "Royal Black & White" professional aesthetic for enhanced readability.
 
 ---
 
@@ -43,9 +42,6 @@ The Student Performance Analyzer automates the manual process of calculating gra
 ```
 Student-Performance-Analyzer/
 │
-├── .streamlit/
-│   └── config.toml        # Custom Black & White Theme settings
-│
 ├── main.py                # Core application logic and UI
 ├── requirements.txt       # List of dependencies
 │
@@ -55,7 +51,6 @@ Student-Performance-Analyzer/
 
 
 - `main.py` → Handles file uploads, sidebar configuration, and UI rendering
-- `config.toml` → Defines the royal dark mode aesthetic (Background: #000000, Accent: #F0F0F0)
 - `requirements.txt` → Ensures consistent environment setup, including optional openpyxl for Excel files
 
 ---
